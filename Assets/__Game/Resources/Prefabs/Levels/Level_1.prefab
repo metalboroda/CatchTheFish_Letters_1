@@ -22,23 +22,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _fishToSpawn.Array.data[0].FishValue
-      value: 1
+      value: "\u0412\u0410"
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _fishToSpawn.Array.data[1].FishValue
-      value: 2
+      value: "\u0410\u0412"
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _fishToSpawn.Array.data[2].FishValue
-      value: 3
+      value: "\u0420\u041E"
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _fishToSpawn.Array.data[3].FishValue
-      value: 4
+      value: "\u0421\u0415"
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _fishToSpawn.Array.data[4].FishValue
-      value: 5
+      value: "\u0417\u0406"
       objectReference: {fileID: 0}
     - target: {fileID: 8573187859200488914, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: m_LocalPosition.x

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CorrectValuesContainer
   m_EditorClassIdentifier: 
   _correctValues:
-  - 1
-  - 2
+  - "\u0412\u0410"
+  - "\u0410\u0412"
