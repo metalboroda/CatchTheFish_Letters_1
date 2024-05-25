@@ -485,6 +485,7 @@ MonoBehaviour:
   - {fileID: 2516483959935719260}
   - {fileID: 1023650785055630664}
   _tutorialGlowingImage: {fileID: 7128619160964668200}
+  _neutralColor: {r: 1, g: 1, b: 1, a: 0.1254902}
   _correctGlowingColor: {r: 0, g: 1, b: 0, a: 0.5019608}
   _incorrectGlowingColor: {r: 1, g: 0, b: 0, a: 0.5019608}
 --- !u!114 &2658408697164431746
@@ -559,7 +560,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3527261095319698831}
@@ -730,7 +731,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.225, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5737896181811738002}

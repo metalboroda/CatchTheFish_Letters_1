@@ -15,5 +15,10 @@ namespace Assets.__Game.Scripts.Tools
     {
       return _audioSource.pitch = Random.Range(min, max);
     }
+
+    public AudioClip GetRandomCLip(AudioClip[] audioClips)
+    {
+      return audioClips[Random.Range(0, audioClips.Length)];
+    }
   }
 }

@@ -36,7 +36,8 @@ namespace Assets.__Game.Scripts.Fish
       GameObject spawnedParticle = LeanPool.Spawn(prefab, transform.position, Quaternion.identity);
       ParticleDestroyer particleDestroyer = spawnedParticle.GetComponent<ParticleDestroyer>();
 
-      particleDestroyer.DestroyParticle();
+      if (particleDestroyer != null)
+        particleDestroyer.DestroyParticle();
     }
   }
 }

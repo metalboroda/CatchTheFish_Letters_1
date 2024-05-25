@@ -9,6 +9,7 @@ namespace Assets.__Game.Scripts.Fish
     [SerializeField] private TextMeshProUGUI[] _numberTexts;
     [Header("Tutorial")]
     [SerializeField] private SpriteRenderer _tutorialGlowingImage;
+    [SerializeField] private Color _neutralColor;
     [SerializeField] private Color _correctGlowingColor;
     [SerializeField] private Color _incorrectGlowingColor;
 
@@ -43,9 +44,14 @@ namespace Assets.__Game.Scripts.Fish
       if (fishUiEvent.Tutorial == true)
         _tutorialGlowingImage.gameObject.SetActive(true);
       else
-        return;
+      {
+        _tutorialGlowingImage.gameObject.SetActive(true);
+        _tutorialGlowingImage.color = _neutralColor;
 
-      _tutorialGlowingImage.color =fishUiEvent.Correct == true ? _correctGlowingColor : _incorrectGlowingColor;
+        return;
+      }
+
+      _tutorialGlowingImage.color = fishUiEvent.Correct == true ? _correctGlowingColor : _incorrectGlowingColor;
     }
   }
 }

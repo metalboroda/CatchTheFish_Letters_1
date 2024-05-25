@@ -4,9 +4,17 @@ namespace Assets.__Game.Scripts.Tools
 {
   public class LockRotation : MonoBehaviour
   {
-    void LateUpdate()
+    private Camera _camera;
+
+    private void Awake()
     {
-      transform.rotation = Quaternion.Euler(0, 0, 0);
+      _camera = Camera.main;
+    }
+
+    private void LateUpdate()
+    {
+      transform.LookAt(transform.position + _camera.transform.rotation * Vector3.forward,
+        _camera.transform.rotation * Vector3.up);
     }
   }
 }

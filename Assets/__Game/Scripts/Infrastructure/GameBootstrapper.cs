@@ -1,6 +1,7 @@
 ﻿using Assets.__Game.Scripts.Enums;
 using Assets.__Game.Scripts.EventBus;
 using Assets.__Game.Scripts.Game.States;
+using Assets.__Game.Scripts.Managers;
 using Assets.__Game.Scripts.Misc;
 using UnityEngine;
 
@@ -23,6 +24,7 @@ namespace Assets.__Game.Scripts.Infrastructure
 
     private void Awake()
     {
+      SettingsManager.ResetSettings();
       InitSingleton();
     }
 

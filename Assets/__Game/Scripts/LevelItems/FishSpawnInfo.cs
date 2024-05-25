@@ -7,9 +7,10 @@ namespace Assets.__Game.Scripts.LevelItems
   public class FishSpawnInfo
   {
     public FishContainerSo FishContainerSo;
-
     [Space]
     public string FishValue;
     public int Amount;
+    [Space]
+    public AudioClip WordAudioCLip;
   }
 }

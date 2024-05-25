@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+﻿using Assets.__Game.Scripts.EventBus;
+using Assets.__Game.Scripts.Fish;
+using Assets.__Game.Scripts.SOs;
+using Assets.__Game.Scripts.Tools;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.__Game.Scripts.EventBus;
-using Assets.__Game.Scripts.Fish;
-using Assets.__Game.Scripts.Tools;
-using Assets.__Game.Scripts.SOs;
+using UnityEngine;
 
 namespace Assets.__Game.Scripts.LevelItems
 {
@@ -54,6 +54,7 @@ namespace Assets.__Game.Scripts.LevelItems
           bool correct = ArrayContains(_correctNumbersContainerSo.CorrectValues, fishInfo.FishValue);
 
           fishHandler.SetFishNumber(fishInfo.FishValue, correct, _tutorial);
+          fishHandler.SetFishWordAudioCLip(fishInfo.WordAudioCLip);
           fishMovement.SetParameters(randSpeed);
 
           if (ArrayContains(_correctNumbersContainerSo.CorrectValues, fishInfo.FishValue))

@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: c10c0a3f1afbb4444bc2d99a45c91454, type: 3}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _maxFishMovementSpeed
-      value: 1
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _minFishMovementSpeed
@@ -64,6 +64,26 @@ PrefabInstance:
       propertyPath: _fishToSpawn.Array.data[4].FishValue
       value: "\u0417\u0406"
       objectReference: {fileID: 0}
+    - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _fishToSpawn.Array.data[0].WordAudioCLip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cc7e4d0c485f6645bfd88dda1110a0b, type: 3}
+    - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _fishToSpawn.Array.data[1].WordAudioCLip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1cc083cb3daa07e4c8314752cb7aaa51, type: 3}
+    - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _fishToSpawn.Array.data[2].WordAudioCLip
+      value: 
+      objectReference: {fileID: 8300000, guid: 48bfea239d5fc7e499b1eb8ee202efa9, type: 3}
+    - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _fishToSpawn.Array.data[3].WordAudioCLip
+      value: 
+      objectReference: {fileID: 8300000, guid: b604d5b11d7c03242bf93112f554c165, type: 3}
+    - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _fishToSpawn.Array.data[4].WordAudioCLip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0efe47a10246b97449b14e6ebd3ef4f4, type: 3}
     - target: {fileID: 8573187859200488914, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
