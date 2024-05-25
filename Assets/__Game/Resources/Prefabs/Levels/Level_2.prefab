@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c10c0a3f1afbb4444bc2d99a45c91454, type: 3}
+    - target: {fileID: 5314205756462170163, guid: c65da20a3316c264ca556b75321916a1, type: 3}
+      propertyPath: _maxTime
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6822429727302462690, guid: c65da20a3316c264ca556b75321916a1, type: 3}
       propertyPath: _maxFishMovementSpeed
       value: 0.75
